@@ -7,13 +7,10 @@
  *
  * @b: 2nd input
  *
- * Return: 0
+ * Return: `a * b`
  */
 
 int mul(int a, int b)
 {
-	int multi = a * b;
-
-	printf("%d", multi);
-	return (0);
+	return (a * b);
 }
