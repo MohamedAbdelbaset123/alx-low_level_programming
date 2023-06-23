@@ -9,7 +9,7 @@
 
 void print_numbers(void)
 {
-	int num = 0;
+	int num;
 
 	do {
 		_putchar(num + 48);
