@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_array
+ * print_array - function
  *
  * @a: 1st input
  *
