@@ -19,9 +19,9 @@ void rev_string(char *s)
 
 	while (n < length / 2)
 	{
-		n = n + 1;
 		swap = s[n];
 		s[n] = s[length - 1 - n];
 		s[length - 1 - n] = swap;
+		n = n + 1;
 	}
 }
