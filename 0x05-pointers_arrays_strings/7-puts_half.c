@@ -5,6 +5,7 @@
  *
  * @str: input
  */
+
 void puts_half(char *str)
 {
 	int n;
