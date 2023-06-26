@@ -14,11 +14,12 @@ void rev_string(char *s)
 
 	while (s[length] != '\0')
 	{
-		length = length + 1;
+		++length;
 	}
 
 	while (n < length / 2)
 	{
+		n = n + 1;
 		swap = s[n];
 		s[n] = s[length - 1 - n];
 		s[length - 1 - n] = swap;
